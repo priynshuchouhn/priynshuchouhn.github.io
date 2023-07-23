@@ -62,6 +62,9 @@ p {
   width: 60%;
   padding: 50px 0;
   border-bottom: 1px solid #d2d2d2;
+  display: grid;
+  place-items: center;
+  align-content: center;
 }
 .section-3 {
   width: 90%;
