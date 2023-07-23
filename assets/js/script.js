@@ -7,3 +7,13 @@ let year = d.getFullYear();
 
 const date = document.getElementById('date');
 date.innerText = `${ day+'-'+month+'-'+year}`;
+
+
+$.ajax({
+    url: "https://geolocation-db.com/jsonp",
+    jsonpCallback: "callback",
+    dataType: "jsonp",
+    success: function(location) {
+        $('#location').html(location.city)
+    }
+  });
