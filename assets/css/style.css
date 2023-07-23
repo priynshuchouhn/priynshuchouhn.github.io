@@ -52,10 +52,13 @@ p {
   border: 1px solid #000;
   width: 16rem;
 }
-section {
+.section {
   width: 60%;
   padding: 50px 0;
   border-bottom: 1px solid #d2d2d2;
+}
+.section-3 {
+  width: 90%;
 }
 .text-content {
   font-size: 15px;
@@ -83,6 +86,3 @@ section {
   font-weight: 600;
   color: #999;
 }
-/* .education-2 img{
-  width: 20%;
-} */

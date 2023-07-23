@@ -1,18 +1,27 @@
 @media only screen and (max-width: 600px) {
-    #brand-logo {
-        font-size: 3rem;
-    }
-    .image{
-        width: 15rem;
-    }
-    .education-2{
-        height: auto;
-    }
-    .divider{
-        display: none;
-    }
-    .education-1{
-        border: none;
-        border-bottom: 1px solid #d2d2d2;
-    }
+  #brand-logo {
+    font-size: 3rem;
+  }
+  .image {
+    width: auto;
+  }
+  .education-2 {
+    height: auto;
+  }
+  .divider {
+    display: none;
+  }
+  .education-1 {
+    border: none;
+    border-bottom: 1px solid #d2d2d2;
+  }
+  .education-1:nth-last-child(1) {
+    border-bottom: none;
+  }
+  .section{
+    width: 100%;
+  }
+  .side-menu{
+    display: none;
+  }
 }
