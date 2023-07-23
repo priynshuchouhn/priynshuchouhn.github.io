@@ -1,61 +1,88 @@
 @font-face {
-    font-family: "ancient-medium";
-    src: url('../../assets/fonts/Ancient-Medium.ttf') format("truetype");
+  font-family: "ancient-medium";
+  src: url("../../assets/fonts/Ancient-Medium.ttf") format("truetype");
 }
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: 'Inter', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
 }
-.brand{
-    font-family: "ancient-medium";
-    font-weight: 400;
+h6 {
+  margin-bottom: 0;
 }
-#brand-logo{
-    font-size: 7rem;
+p {
+  margin-bottom: 0;
 }
-.nav-bar{
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #000;
+.brand {
+  font-family: "ancient-medium";
+  font-weight: 400;
+}
+#brand-logo {
+  font-size: 7rem;
+}
+.nav-bar {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #000;
 }
 #location {
-    border-right: 1px solid #fff;
+  border-right: 1px solid #fff;
 }
 
-  .nav-right ul li {
-    display: inline-block;
-    margin-left: 15px;
-  }
-  
-  .nav-right ul li a {
-    color: #fff;
-    font-size: 14px;
-    transition: all .3s;
-  }
-  
-  .nav-right ul li a:hover {
-    color: #f5a425;
-  }
-  .image{
-   border-radius:2px;
-   border: 1px solid #000;
-   width: 16rem;
-  }
-  section{
-    width: 60%;
-    padding: 50px 0;
-    border-bottom: 1px solid #d2d2d2;
-  }
-  .text-content{
-    font-size: 15px;
-    line-height: 25px;
-    text-align: justify;
-  }
-  .credit{
-    font-weight: 700;
-  }
+.nav-right ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.nav-right ul li a {
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.nav-right ul li a:hover {
+  color: #f5a425;
+}
+.image {
+  border-radius: 2px;
+  border: 1px solid #000;
+  width: 16rem;
+}
+section {
+  width: 60%;
+  padding: 50px 0;
+  border-bottom: 1px solid #d2d2d2;
+}
+.text-content {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+.credit {
+  font-weight: 700;
+}
+.education-1 {
+  margin: 2rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+}
+.education-2 {
+  padding: 0.5rem 0.75rem 4rem;
+  /* border-bottom: 1px solid #d2d2d2; */
+  height: 10rem;
+}
+.content .education-1:nth-child(even) {
+  border-left: none;
+}
+.year{
+  font-weight: 600;
+  color: #999;
+}
+/* .education-2 img{
+  width: 20%;
+} */
