@@ -18,20 +18,24 @@
   .education-1:nth-last-child(1) {
     border-bottom: none;
   }
-  .section{
+  .section {
     width: 100%;
   }
-  .side-menu{
+  .side-menu {
     display: none;
   }
-  .skills-content{
+  .skills-content {
     height: auto;
   }
-  #social-icons{
+  #social-icons {
     display: flex;
     justify-content: space-between;
   }
   .skills-content li {
+    line-height: normal;
+  }
+  .special-text {
+    font-size: 2rem;
     line-height: normal;
   }
 }
