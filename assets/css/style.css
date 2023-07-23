@@ -11,6 +11,12 @@ body {
   font-size: 14px;
   font-family: "Inter", sans-serif;
 }
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
 h6 {
   margin-bottom: 0;
 }
@@ -82,27 +88,43 @@ p {
 .content .education-1:nth-child(even) {
   border-left: none;
 }
-.year{
+.year {
   font-weight: 600;
   color: #999;
 }
-#skills-scroll{
+#skills-scroll {
   height: 650px;
   overflow-y: scroll;
 }
-.skills-content{
+.skills-content {
   height: 650px;
   margin-bottom: 10px;
 }
-.card{
+.card {
   margin-bottom: 10px;
 }
 .skills-content li {
   line-height: 2.3rem;
 }
-.special-text{
+.special-text {
   font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 9rem;
 }
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 2s;
+}
+.show {
+  filter: blur(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+/* @media (prefers-reduced-motions) {
+  .hidden {
+    transition: none;
+  }
+} */
