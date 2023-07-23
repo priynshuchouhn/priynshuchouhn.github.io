@@ -24,4 +24,7 @@
   .side-menu{
     display: none;
   }
+  .skills-content{
+    height: auto;
+  }
 }
