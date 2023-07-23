@@ -27,4 +27,11 @@
   .skills-content{
     height: auto;
   }
+  #social-icons{
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-content li {
+    line-height: unset;
+  }
 }
