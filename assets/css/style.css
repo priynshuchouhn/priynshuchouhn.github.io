@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "ancient-medium";
+    src: url('../../assets/fonts/Ancient-Medium.ttf') format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+body{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.brand{
+    font-family: "ancient-medium";
+    font-weight: 400;
+}
+#brand-logo{
+    font-size: 7rem;
+}
+.nav-bar{
+    color: #fff;
+    text-transform: uppercase;
+}
+#location {
+    border-right: 1px solid #fff;
+}
+
+.social-icons{
+    list-style: none;
+
+}
+  .nav-right ul li {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  .nav-right ul li a {
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s;
+  }
+  
+  .nav-right ul li a:hover {
+    color: #f5a425;
+  }
