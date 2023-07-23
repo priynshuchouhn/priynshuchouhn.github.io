@@ -86,3 +86,16 @@ p {
   font-weight: 600;
   color: #999;
 }
+#skills-scroll{
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+.skills-content{
+  height: 80vh;
+}
+.card{
+  margin-bottom: 10px;
+}
+.skills-content li {
+  line-height: 2.3rem;
+}
