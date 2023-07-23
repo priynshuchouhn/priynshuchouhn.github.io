@@ -126,8 +126,8 @@ p {
   transform: translateY(0);
   opacity: 1;
 }
-/* @media (prefers-reduced-motions) {
+@media (prefers-reduced-motions) {
   .hidden {
     transition: none;
   }
-} */
+}
