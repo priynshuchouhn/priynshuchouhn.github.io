@@ -87,11 +87,11 @@ p {
   color: #999;
 }
 #skills-scroll{
-  max-height: 80vh;
+  height: 650px;
   overflow-y: scroll;
 }
 .skills-content{
-  height: 80vh;
+  height: 650px;
   margin-bottom: 10px;
 }
 .card{
