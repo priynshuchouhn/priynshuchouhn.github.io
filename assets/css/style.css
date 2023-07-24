@@ -11,12 +11,9 @@ body {
   font-size: 14px;
   font-family: "Inter", sans-serif;
 }
-section {
-  display: grid;
-  place-items: center;
-  align-content: center;
+/* section {
   min-height: 100vh;
-}
+} */
 h6 {
   margin-bottom: 0;
 }
@@ -114,7 +111,7 @@ p {
   text-transform: uppercase;
   line-height: 9rem;
 }
-.hidden {
+/* .hidden {
   opacity: 0;
   filter: blur(5px);
   transform: translateY(100%);
@@ -124,7 +121,7 @@ p {
   filter: blur(0);
   transform: translateY(0);
   opacity: 1;
-}
+} */
 /* @media (prefers-reduced-motions) {
   .hidden {
     transition: none;
