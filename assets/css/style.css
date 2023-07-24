@@ -11,9 +11,12 @@ body {
   font-size: 14px;
   font-family: "Inter", sans-serif;
 }
-/* section {
-  min-height: 100vh;
-} */
+section {
+  /* min-height: 100vh; */
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
 h6 {
   margin-bottom: 0;
 }
