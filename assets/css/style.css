@@ -104,6 +104,7 @@ p {
 }
 .card {
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .skills-content li {
   line-height: 2.3rem;
@@ -114,19 +115,4 @@ p {
   text-transform: uppercase;
   line-height: 9rem;
 }
-/* .hidden {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateY(100%);
-  transition: all 2s;
-}
-.show {
-  filter: blur(0);
-  transform: translateY(0);
-  opacity: 1;
-} */
-/* @media (prefers-reduced-motions) {
-  .hidden {
-    transition: none;
-  }
-} */
+
