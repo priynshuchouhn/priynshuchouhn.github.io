@@ -26,7 +26,9 @@ $.ajax({
   jsonpCallback: "callback",
   dataType: "jsonp",
   success: function (location) {
-    $("#location").html(location.city);
+    if(location.city){
+      $("#location").html(location.city);
+    }
   },
 });
 

@@ -69,6 +69,9 @@ p {
 .section-3 {
   width: 90%;
 }
+/* .section-3 .content{
+  width: 100%;
+} */
 .text-content {
   font-size: 15px;
   line-height: 25px;
@@ -120,3 +123,52 @@ p {
   text-decoration: none;
 }
 
+.project-card{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 16/9;
+  border-radius: 0;
+}
+
+.skills-gradient{
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+#react .skills-gradient {
+  background: linear-gradient(to right, #a6d7ff, #5ec4ff); /* Lighter gradient colors */
+}
+#react .text {
+  color: #5ec4ff
+}
+#angular .skills-gradient {
+  background: linear-gradient(to right, #b00429, #f65e5e); /* Gradient colors matching Angular logo */
+}
+#angular .text {
+  color: #dd0031
+}
+#node .skills-gradient {
+  background: linear-gradient(to right, #68a063, #8cc152); /* Gradient colors */
+}
+#node .text {
+  color: #8cc152
+}
+#mongodb .skills-gradient {
+  background: linear-gradient(to right, #589636, #7eb343); /* Gradient colors */
+}
+#mongodb .text {
+  color: #589636
+}
+#docker .skills-gradient {
+  background: linear-gradient(to right, #0db7ed, #207aa2); /* Gradient colors */
+}
+#docker .text {
+  color: #0db7ed
+}
+#aws .skills-gradient {
+  background: linear-gradient(to right, #ff9900, #ffcc00); /* Gradient colors */
+}
+#aws .text {
+  color: #ff9900
+}
